@@ -1,0 +1,594 @@
+/* Animations pour les éléments au scroll */
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.animate-on-scroll.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Animation du loader */
+@keyframes loaderSpin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.loader {
+    border: 4px solid rgba(212, 175, 55, 0.1);
+    border-left-color: var(--primary-gold);
+    animation: loaderSpin 1s infinite linear;
+}
+
+/* Animation du panier */
+@keyframes cartBump {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+.cart-count.bump {
+    animation: cartBump 0.3s ease-out;
+}
+
+/* Animation des boutons */
+@keyframes buttonGlow {
+    0% { box-shadow: 0 0 5px var(--primary-gold); }
+    50% { box-shadow: 0 0 20px var(--primary-gold); }
+    100% { box-shadow: 0 0 5px var(--primary-gold); }
+}
+
+.btn-primary:hover {
+    animation: buttonGlow 1.5s infinite;
+}
+
+/* Animation du menu mobile */
+@keyframes menuSlide {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+}
+
+.nav-links.active {
+    animation: menuSlide 0.3s forwards;
+}
+
+/* Animation des cartes produits */
+@keyframes cardHover {
+    0% { transform: translateY(0) rotate(0); }
+    50% { transform: translateY(-10px) rotate(1deg); }
+    100% { transform: translateY(0) rotate(0); }
+}
+
+.product-card:hover {
+    animation: cardHover 0.5s ease-in-out;
+}
+
+/* Animation de l'overlay des produits */
+.product-overlay {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease-in-out;
+}
+
+.product-card:hover .product-overlay {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Animation du titre hero */
+@keyframes titleReveal {
+    0% { 
+        clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+        transform: scale(0.9);
+    }
+    100% { 
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        transform: scale(1);
+    }
+}
+
+.hero-title {
+    animation: titleReveal 1.2s cubic-bezier(0.77, 0, 0.175, 1) forwards;
+}
+
+/* Animation des liens sociaux */
+@keyframes socialHover {
+    0% { transform: translateY(0) rotate(0); }
+    25% { transform: translateY(-5px) rotate(5deg); }
+    75% { transform: translateY(-5px) rotate(-5deg); }
+    100% { transform: translateY(0) rotate(0); }
+}
+
+.social-link:hover {
+    animation: socialHover 0.6s ease-in-out;
+}
+
+/* Animation de notification */
+@keyframes notificationSlide {
+    0% { 
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    10% { 
+        transform: translateY(0);
+        opacity: 1;
+    }
+    90% { 
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% { 
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+}
+
+.add-to-cart-notification {
+    animation: notificationSlide 2s ease-in-out forwards;
+}
+
+/* Animation du parallax */
+.parallax-section {
+    transform: translateZ(0);
+    transition: transform 0.1s linear;
+}
+
+/* Animation des particules dorées */
+@keyframes particleFloat {
+    0% { transform: translateY(0) rotate(0); }
+    50% { transform: translateY(-20px) rotate(180deg); }
+    100% { transform: translateY(0) rotate(360deg); }
+}
+
+.particle {
+    animation: particleFloat 3s infinite ease-in-out;
+}
+
+/* Animation du menu hamburger */
+@keyframes menuToggle {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.menu-toggle.active {
+    animation: menuToggle 0.3s ease-in-out;
+}
+
+/* Animation de la newsletter */
+@keyframes formShake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+}
+
+.newsletter-form.error {
+    animation: formShake 0.3s ease-in-out;
+}
+
+/* Animation des images produits */
+@keyframes imageZoom {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.1); }
+}
+
+.product-image:hover {
+    animation: imageZoom 0.3s forwards;
+}
+
+/* Animations de lumière dynamiques */
+@keyframes lightBeam {
+    0% {
+        background: radial-gradient(circle at 0% 0%, 
+            rgba(212, 175, 55, 0.3) 0%,
+            transparent 50%);
+    }
+    25% {
+        background: radial-gradient(circle at 100% 0%, 
+            rgba(212, 175, 55, 0.3) 0%,
+            transparent 50%);
+    }
+    50% {
+        background: radial-gradient(circle at 100% 100%, 
+            rgba(212, 175, 55, 0.3) 0%,
+            transparent 50%);
+    }
+    75% {
+        background: radial-gradient(circle at 0% 100%, 
+            rgba(212, 175, 55, 0.3) 0%,
+            transparent 50%);
+    }
+    100% {
+        background: radial-gradient(circle at 0% 0%, 
+            rgba(212, 175, 55, 0.3) 0%,
+            transparent 50%);
+    }
+}
+
+@keyframes sparkle {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+
+@keyframes floatingLight {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(10px, -10px); }
+    50% { transform: translate(0, -20px); }
+    75% { transform: translate(-10px, -10px); }
+    100% { transform: translate(0, 0); }
+}
+
+/* Application des animations */
+.product-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    animation: lightBeam 8s infinite linear;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.product-title::after {
+    content: '✨';
+    position: absolute;
+    margin-left: 10px;
+    animation: sparkle 2s infinite;
+}
+
+.hero-content::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at center, 
+        rgba(212, 175, 55, 0.2) 0%,
+        transparent 50%);
+    animation: floatingLight 4s infinite ease-in-out;
+    pointer-events: none;
+}
+
+/* Effet de particules dorées */
+.sparkle-effect {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: var(--primary-gold);
+    border-radius: 50%;
+    animation: sparkleFloat 3s infinite linear;
+}
+
+@keyframes sparkleFloat {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        transform: translate(var(--x, 100px), var(--y, -100px)) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+/* Effet de lumière rotative */
+.rotating-light {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    background: conic-gradient(
+        transparent,
+        transparent 45deg,
+        rgba(212, 175, 55, 0.1) 90deg,
+        transparent 135deg,
+        transparent
+    );
+    animation: rotate 8s infinite linear;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Effet de vague lumineuse */
+.wave-light {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,
+        transparent 0%,
+        rgba(212, 175, 55, 0.2) 50%,
+        transparent 100%
+    );
+    animation: waveMove 3s infinite ease-in-out;
+}
+
+@keyframes waveMove {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+/* Application sur les éléments */
+.product-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.product-card:hover .rotating-light {
+    opacity: 1;
+}
+
+.product-card:hover .wave-light {
+    animation-play-state: running;
+}
+
+/* Générateur de particules */
+.particle-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.particle {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background: var(--primary-gold);
+    border-radius: 50%;
+    pointer-events: none;
+    opacity: 0;
+}
+
+/* Animation pour les particules */
+@keyframes particleRise {
+    0% {
+        transform: translateY(100%) translateX(0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100%) translateX(var(--x-end));
+        opacity: 0;
+    }
+}
+
+/* Effet de brillance sur hover */
+.shine-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        45deg,
+        transparent 0%,
+        rgba(212, 175, 55, 0.2) 50%,
+        transparent 100%
+    );
+    transform: translateX(-100%);
+    animation: shine 3s infinite;
+}
+
+@keyframes shine {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+/* Script pour générer les particules dynamiquement */
+.particle-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+/* Dégradés lumineux multicolores */
+@keyframes multicolorGlow {
+    0% {
+        filter: drop-shadow(0 0 15px rgba(255, 0, 0, 0.7))
+               drop-shadow(0 0 25px rgba(255, 0, 0, 0.5));
+    }
+    25% {
+        filter: drop-shadow(0 0 15px rgba(255, 255, 0, 0.7))
+               drop-shadow(0 0 25px rgba(255, 255, 0, 0.5));
+    }
+    50% {
+        filter: drop-shadow(0 0 15px rgba(0, 255, 255, 0.7))
+               drop-shadow(0 0 25px rgba(0, 255, 255, 0.5));
+    }
+    75% {
+        filter: drop-shadow(0 0 15px rgba(255, 0, 255, 0.7))
+               drop-shadow(0 0 25px rgba(255, 0, 255, 0.5));
+    }
+    100% {
+        filter: drop-shadow(0 0 15px rgba(255, 0, 0, 0.7))
+               drop-shadow(0 0 25px rgba(255, 0, 0, 0.5));
+    }
+}
+
+@keyframes rainbowText {
+    0% {
+        text-shadow: 0 0 10px rgba(255, 0, 0, 0.7),
+                    0 0 20px rgba(255, 0, 0, 0.5),
+                    0 0 30px rgba(255, 0, 0, 0.3);
+    }
+    25% {
+        text-shadow: 0 0 10px rgba(255, 255, 0, 0.7),
+                    0 0 20px rgba(255, 255, 0, 0.5),
+                    0 0 30px rgba(255, 255, 0, 0.3);
+    }
+    50% {
+        text-shadow: 0 0 10px rgba(0, 255, 255, 0.7),
+                    0 0 20px rgba(0, 255, 255, 0.5),
+                    0 0 30px rgba(0, 255, 255, 0.3);
+    }
+    75% {
+        text-shadow: 0 0 10px rgba(255, 0, 255, 0.7),
+                    0 0 20px rgba(255, 0, 255, 0.5),
+                    0 0 30px rgba(255, 0, 255, 0.3);
+    }
+    100% {
+        text-shadow: 0 0 10px rgba(255, 0, 0, 0.7),
+                    0 0 20px rgba(255, 0, 0, 0.5),
+                    0 0 30px rgba(255, 0, 0, 0.3);
+    }
+}
+
+@keyframes borderGlow {
+    0% { border-color: rgba(255, 0, 0, 0.7); }
+    25% { border-color: rgba(255, 255, 0, 0.7); }
+    50% { border-color: rgba(0, 255, 255, 0.7); }
+    75% { border-color: rgba(255, 0, 255, 0.7); }
+    100% { border-color: rgba(255, 0, 0, 0.7); }
+}
+
+/* Application sur les images */
+.product-image {
+    animation: multicolorGlow 5s infinite linear;
+    border: 2px solid transparent;
+    animation: borderGlow 5s infinite linear;
+}
+
+/* Application sur les textes */
+.hero-title,
+.section-title,
+.product-title {
+    animation: rainbowText 5s infinite linear;
+}
+
+/* Effet arc-en-ciel rotatif */
+@keyframes rotatingRainbow {
+    0% {
+        background: conic-gradient(
+            from 0deg,
+            rgba(255, 0, 0, 0.3),
+            rgba(255, 255, 0, 0.3),
+            rgba(0, 255, 255, 0.3),
+            rgba(255, 0, 255, 0.3),
+            rgba(255, 0, 0, 0.3)
+        );
+    }
+    100% {
+        background: conic-gradient(
+            from 360deg,
+            rgba(255, 0, 0, 0.3),
+            rgba(255, 255, 0, 0.3),
+            rgba(0, 255, 255, 0.3),
+            rgba(255, 0, 255, 0.3),
+            rgba(255, 0, 0, 0.3)
+        );
+    }
+}
+
+.product-card::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border-radius: 15px;
+    background: conic-gradient(
+        rgba(255, 0, 0, 0.3),
+        rgba(255, 255, 0, 0.3),
+        rgba(0, 255, 255, 0.3),
+        rgba(255, 0, 255, 0.3),
+        rgba(255, 0, 0, 0.3)
+    );
+    animation: rotatingRainbow 5s infinite linear;
+    z-index: -1;
+    filter: blur(10px);
+}
+
+/* Particules multicolores */
+@keyframes multicolorParticle {
+    0% {
+        background: rgba(255, 0, 0, 0.7);
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+    }
+    25% {
+        background: rgba(255, 255, 0, 0.7);
+        box-shadow: 0 0 10px rgba(255, 255, 0, 0.7);
+    }
+    50% {
+        background: rgba(0, 255, 255, 0.7);
+        box-shadow: 0 0 10px rgba(0, 255, 255, 0.7);
+    }
+    75% {
+        background: rgba(255, 0, 255, 0.7);
+        box-shadow: 0 0 10px rgba(255, 0, 255, 0.7);
+    }
+    100% {
+        background: rgba(255, 0, 0, 0.7);
+        box-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+    }
+}
+
+.particle {
+    animation: multicolorParticle 4s infinite linear,
+               particleRise 3s ease-out forwards;
+}
+
+/* Effet de vague multicolore */
+@keyframes multicolorWave {
+    0% {
+        background: linear-gradient(90deg,
+            transparent 0%,
+            rgba(255, 0, 0, 0.3) 50%,
+            transparent 100%
+        );
+    }
+    25% {
+        background: linear-gradient(90deg,
+            transparent 0%,
+            rgba(255, 255, 0, 0.3) 50%,
+            transparent 100%
+        );
+    }
+    50% {
+        background: linear-gradient(90deg,
+            transparent 0%,
+            rgba(0, 255, 255, 0.3) 50%,
+            transparent 100%
+        );
+    }
+    75% {
+        background: linear-gradient(90deg,
+            transparent 0%,
+            rgba(255, 0, 255, 0.3) 50%,
+            transparent 100%
+        );
+    }
+    100% {
+        background: linear-gradient(90deg,
+            transparent 0%,
+            rgba(255, 0, 0, 0.3) 50%,
+            transparent 100%
+        );
+    }
+}
+
+.wave-light {
+    animation: multicolorWave 4s infinite linear,
+               waveMove 3s infinite ease-in-out;
+} 

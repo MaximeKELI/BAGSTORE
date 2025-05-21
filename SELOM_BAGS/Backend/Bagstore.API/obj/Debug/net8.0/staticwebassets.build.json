@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "jxKY+h42cjNB1R9iiDlbyM3j31za0DST6yhv+fa2TN8=",
+  "Source": "Bagstore.API",
+  "BasePath": "_content/Bagstore.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

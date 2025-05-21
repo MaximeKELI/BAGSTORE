@@ -1,0 +1,209 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.API/Bagstore.API.csproj": {}
+  },
+  "projects": {
+    "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.API/Bagstore.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.API/Bagstore.API.csproj",
+        "projectName": "Bagstore.API",
+        "projectPath": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.API/Bagstore.API.csproj",
+        "packagesPath": "/home/maxime/.nuget/packages/",
+        "outputPath": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/maxime/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/Bagstore.Core.csproj": {
+                "projectPath": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/Bagstore.Core.csproj"
+              },
+              "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Infrastructure/Bagstore.Infrastructure.csproj": {
+                "projectPath": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Infrastructure/Bagstore.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/Bagstore.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/Bagstore.Core.csproj",
+        "projectName": "Bagstore.Core",
+        "projectPath": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/Bagstore.Core.csproj",
+        "packagesPath": "/home/maxime/.nuget/packages/",
+        "outputPath": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/maxime/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Infrastructure/Bagstore.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Infrastructure/Bagstore.Infrastructure.csproj",
+        "projectName": "Bagstore.Infrastructure",
+        "projectPath": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Infrastructure/Bagstore.Infrastructure.csproj",
+        "packagesPath": "/home/maxime/.nuget/packages/",
+        "outputPath": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/maxime/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/Bagstore.Core.csproj": {
+                "projectPath": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/Bagstore.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bagstore.io - Boutique de Sacs de Luxe</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/components.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader-container">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Particules dorées -->
+    <canvas class="particles-canvas"></canvas>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <img src="assets/images/bagg.png" alt="Logo" class="logo-image">
+                Bagstore.io
+            </div>
+            
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="nav-links">
+                <a href="#" class="nav-link">Accueil</a>
+                <a href="#collection" class="nav-link">Collection</a>
+                <a href="#nouveautes" class="nav-link">Nouveautés</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                
+                <div class="cart-button">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content animate-on-scroll">
+            <h1 class="hero-title">L'Excellence du Luxe</h1>
+            <p class="hero-subtitle">Découvrez notre collection exclusive de sacs</p>
+            <a href="#collection" class="btn btn-primary">Explorer</a>
+        </div>
+    </section>
+
+    <!-- Collection -->
+    <section id="collection" class="section-collection">
+        <h2 class="section-title animate-on-scroll">Notre Collection</h2>
+        
+        <div class="products-grid">
+            <!-- Produit 1 -->
+            <div class="product-card animate-on-scroll" data-product-id="1">
+                <div class="product-image-container">
+                    <img src="assets/images/bag1.jpg" alt="Sac Luxe 1" class="product-image">
+                    <div class="product-overlay">
+                        <button class="btn-quick-view">Aperçu rapide</button>
+                        <button class="add-to-wishlist">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+                <h3 class="product-title">Le Classic Elite</h3>
+                <p class="product-price">1,299 €</p>
+                <button class="btn add-to-cart">Ajouter au panier</button>
+            </div>
+
+            <!-- Produit 2 -->
+            <div class="product-card animate-on-scroll" data-product-id="2">
+                <div class="product-image-container">
+                    <img src="assets/images/bag2.jpg" alt="Sac Luxe 2" class="product-image">
+                    <div class="product-overlay">
+                        <button class="btn-quick-view">Aperçu rapide</button>
+                        <button class="add-to-wishlist">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+                <h3 class="product-title">L'Élégant Royal</h3>
+                <p class="product-price">1,599 €</p>
+                <button class="btn add-to-cart">Ajouter au panier</button>
+            </div>
+
+            <!-- Produit 3 -->
+            <div class="product-card animate-on-scroll" data-product-id="3">
+                <div class="product-image-container">
+                    <img src="assets/images/bag3.jpg" alt="Sac Luxe 3" class="product-image">
+                    <div class="product-overlay">
+                        <button class="btn-quick-view">Aperçu rapide</button>
+                        <button class="add-to-wishlist">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                </div>
+                <h3 class="product-title">Le Sophistiqué</h3>
+                <p class="product-price">1,899 €</p>
+                <button class="btn add-to-cart">Ajouter au panier</button>
+            </div>
+
+            <!-- Produit 4 -->
+            <div class="product-card animate-on-scroll" data-product-id="4">
+                <div class="product-image-container">
+                    <img src="assets/images/bag4.jpg" alt="Sac Luxe 4" class="product-image">
+                    <div class="product-overlay">
+                        <button class="btn-quick-view">Aperçu rapide</button>
+                    </div>
+                </div>
+                <h3 class="product-title">L'Urban Chic</h3>
+                <p class="product-price">1,499 €</p>
+                <button class="btn add-to-cart">Ajouter au panier</button>
+            </div>
+
+            <!-- Produit 5 -->
+            <div class="product-card animate-on-scroll" data-product-id="5">
+                <div class="product-image-container">
+                    <img src="assets/images/bag5.jpg" alt="Sac Luxe 5" class="product-image">
+                    <div class="product-overlay">
+                        <button class="btn-quick-view">Aperçu rapide</button>
+                    </div>
+                </div>
+                <h3 class="product-title">Le Voyageur</h3>
+                <p class="product-price">2,199 €</p>
+                <button class="btn add-to-cart">Ajouter au panier</button>
+            </div>
+
+            <!-- Produit 6 -->
+            <div class="product-card animate-on-scroll" data-product-id="6">
+                <div class="product-image-container">
+                    <img src="assets/images/bag6.jpeg" alt="Sac Luxe 6" class="product-image">
+                    <div class="product-overlay">
+                        <button class="btn-quick-view">Aperçu rapide</button>
+                    </div>
+                </div>
+                <h3 class="product-title">L'Élégance Pure</h3>
+                <p class="product-price">1,799 €</p>
+                <button class="btn add-to-cart">Ajouter au panier</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nouveautés -->
+    <section id="nouveautes" class="section-nouveautes">
+        <div class="nouveautes-content">
+            <h2 class="section-title animate-on-scroll">Dernières Nouveautés</h2>
+            <div class="nouveautes-grid">
+                <div class="nouveaute-card animate-on-scroll">
+                    <img src="assets/images/m1.jpg" alt="Collection Homme" class="nouveaute-image">
+                    <div class="nouveaute-info">
+                        <h3>Collection Homme</h3>
+                        <p>Découvrez nos créations masculines</p>
+                        <a href="#" class="btn btn-secondary">Explorer</a>
+                    </div>
+                </div>
+                <div class="nouveaute-card animate-on-scroll">
+                    <img src="assets/images/w1.jpg" alt="Collection Femme" class="nouveaute-image">
+                    <div class="nouveaute-info">
+                        <h3>Collection Femme</h3>
+                        <p>Élégance et raffinement</p>
+                        <a href="#" class="btn btn-secondary">Explorer</a>
+                    </div>
+                </div>
+                <div class="nouveaute-card animate-on-scroll">
+                    <img src="assets/images/t1.jpg" alt="Collection Voyage" class="nouveaute-image">
+                    <div class="nouveaute-info">
+                        <h3>Collection Voyage</h3>
+                        <p>Pour tous vos déplacements</p>
+                        <a href="#" class="btn btn-secondary">Explorer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="newsletter-content animate-on-scroll">
+            <h2>Restez informé</h2>
+            <p>Inscrivez-vous à notre newsletter pour recevoir nos dernières offres</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Votre email" required>
+                <button type="submit" class="btn btn-primary">S'inscrire</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="footer-title">À propos</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Notre Histoire</a></li>
+                    <li><a href="#">Nos Valeurs</a></li>
+                    <li><a href="#">Nos Boutiques</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3 class="footer-title">Service Client</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Livraison</a></li>
+                    <li><a href="#">Retours</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3 class="footer-title">Suivez-nous</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Bagstore.io - Tous droits réservés</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
