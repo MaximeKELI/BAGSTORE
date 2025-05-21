@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.API/Bagstore.API.csproj": {}
+    "/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.API/Bagstore.API.csproj": {}
   },
   "projects": {
-    "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.API/Bagstore.API.csproj": {
+    "/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.API/Bagstore.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.API/Bagstore.API.csproj",
+        "projectUniqueName": "/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.API/Bagstore.API.csproj",
         "projectName": "Bagstore.API",
-        "projectPath": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.API/Bagstore.API.csproj",
+        "projectPath": "/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.API/Bagstore.API.csproj",
         "packagesPath": "/home/maxime/.nuget/packages/",
-        "outputPath": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.API/obj/",
+        "outputPath": "/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/maxime/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/Bagstore.Core.csproj": {
-                "projectPath": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/Bagstore.Core.csproj"
+              "/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/Bagstore.Core.csproj": {
+                "projectPath": "/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/Bagstore.Core.csproj"
               },
-              "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Infrastructure/Bagstore.Infrastructure.csproj": {
-                "projectPath": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Infrastructure/Bagstore.Infrastructure.csproj"
+              "/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Infrastructure/Bagstore.Infrastructure.csproj": {
+                "projectPath": "/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Infrastructure/Bagstore.Infrastructure.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/Bagstore.Core.csproj": {
+    "/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/Bagstore.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/Bagstore.Core.csproj",
+        "projectUniqueName": "/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/Bagstore.Core.csproj",
         "projectName": "Bagstore.Core",
-        "projectPath": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/Bagstore.Core.csproj",
+        "projectPath": "/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/Bagstore.Core.csproj",
         "packagesPath": "/home/maxime/.nuget/packages/",
-        "outputPath": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/obj/",
+        "outputPath": "/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/maxime/.nuget/NuGet/NuGet.Config"
@@ -136,14 +136,14 @@
         }
       }
     },
-    "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Infrastructure/Bagstore.Infrastructure.csproj": {
+    "/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Infrastructure/Bagstore.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Infrastructure/Bagstore.Infrastructure.csproj",
+        "projectUniqueName": "/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Infrastructure/Bagstore.Infrastructure.csproj",
         "projectName": "Bagstore.Infrastructure",
-        "projectPath": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Infrastructure/Bagstore.Infrastructure.csproj",
+        "projectPath": "/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Infrastructure/Bagstore.Infrastructure.csproj",
         "packagesPath": "/home/maxime/.nuget/packages/",
-        "outputPath": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Infrastructure/obj/",
+        "outputPath": "/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/maxime/.nuget/NuGet/NuGet.Config"
@@ -158,8 +158,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/Bagstore.Core.csproj": {
-                "projectPath": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/Bagstore.Core.csproj"
+              "/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/Bagstore.Core.csproj": {
+                "projectPath": "/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/Bagstore.Core.csproj"
               }
             }
           }
@@ -180,7 +180,7 @@
               "target": "Package",
               "version": "[9.0.5, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[9.0.5, )"
             }

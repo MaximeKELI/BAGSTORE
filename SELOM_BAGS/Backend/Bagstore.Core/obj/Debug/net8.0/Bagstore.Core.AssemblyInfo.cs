@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bagstore.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4702d9c3c9499fe02e2c4c15a747e80841988f10")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fb7b72b39733bf2fe7ed910fc00541cf22dcf98")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bagstore.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bagstore.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

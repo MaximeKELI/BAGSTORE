@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Bagstore.Core
-build_property.ProjectDir = /home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/
+build_property.ProjectDir = /home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

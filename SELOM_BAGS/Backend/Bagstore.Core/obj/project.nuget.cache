@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6cXDjk2jQajIqMNTSm1cEYin1Epm526+VT/gol2/x8VwD65IfiqLvNa3qrmXaBsBnLO4ff8UGjy0bv4oL0rlEg==",
+  "dgSpecHash": "9/TvgXVTGqxyGN6ZiqxPLYA32GV/ez02WYtaop+Fgw6G0/Sk78anKF755BdmtRpd0X26jfZSTx08lSg8hvZo1w==",
   "success": true,
-  "projectFilePath": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/Bagstore.Core.csproj",
+  "projectFilePath": "/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/Bagstore.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

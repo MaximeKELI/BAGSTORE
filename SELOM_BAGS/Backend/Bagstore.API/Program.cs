@@ -14,7 +14,7 @@ builder.Services.AddSwaggerGen();
 
 // Add database context
 builder.Services.AddDbContext<BagstoreContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add repositories
 builder.Services.AddScoped<IProductRepository, ProductRepository>();

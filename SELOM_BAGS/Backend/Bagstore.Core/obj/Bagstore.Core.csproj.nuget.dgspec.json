@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/Bagstore.Core.csproj": {}
+    "/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/Bagstore.Core.csproj": {}
   },
   "projects": {
-    "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/Bagstore.Core.csproj": {
+    "/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/Bagstore.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/Bagstore.Core.csproj",
+        "projectUniqueName": "/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/Bagstore.Core.csproj",
         "projectName": "Bagstore.Core",
-        "projectPath": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/Bagstore.Core.csproj",
+        "projectPath": "/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/Bagstore.Core.csproj",
         "packagesPath": "/home/maxime/.nuget/packages/",
-        "outputPath": "/home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/obj/",
+        "outputPath": "/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/maxime/.nuget/NuGet/NuGet.Config"

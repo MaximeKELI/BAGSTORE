@@ -10,3 +10,15 @@
 /home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/obj/Debug/net8.0/refint/Bagstore.Core.dll
 /home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/obj/Debug/net8.0/Bagstore.Core.pdb
 /home/maxime/BAGS/Bagstore.io/Backend/Bagstore.Core/obj/Debug/net8.0/ref/Bagstore.Core.dll
+/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/bin/Debug/net8.0/Bagstore.Core.deps.json
+/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/bin/Debug/net8.0/Bagstore.Core.dll
+/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/bin/Debug/net8.0/Bagstore.Core.pdb
+/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/obj/Debug/net8.0/Bagstore.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/obj/Debug/net8.0/Bagstore.Core.AssemblyInfoInputs.cache
+/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/obj/Debug/net8.0/Bagstore.Core.AssemblyInfo.cs
+/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/obj/Debug/net8.0/Bagstore.Core.csproj.CoreCompileInputs.cache
+/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/obj/Debug/net8.0/Bagstore.Core.sourcelink.json
+/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/obj/Debug/net8.0/Bagstore.Core.dll
+/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/obj/Debug/net8.0/refint/Bagstore.Core.dll
+/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/obj/Debug/net8.0/Bagstore.Core.pdb
+/home/maxime/SELOM/SELOM_BAGS/Backend/Bagstore.Core/obj/Debug/net8.0/ref/Bagstore.Core.dll
